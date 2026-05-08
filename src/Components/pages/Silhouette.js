@@ -131,7 +131,7 @@ function Silhouette() {
         
         // Gerar um número entre 1 e 45
         const randomValue = seededRandom(totalDays+11);
-        const id = Math.floor(randomValue * 255);
+        const id = Math.floor(randomValue * 261);
     
         return id;
     }
